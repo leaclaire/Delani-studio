@@ -1,0 +1,10 @@
+#first{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 230px;
+    font-family: calligraffitti;
+}

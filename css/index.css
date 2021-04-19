@@ -79,16 +79,4 @@ body{
   #email::placeholder {
     color: white;
   }
-  #message::placeholder {
-    color: white;
-  }
-  .socialIcons {
-    padding-top: 40px;
-  }
-  .delani {
-    padding-top: 30px;
-    font-weight: bold;
-  }
-  .row {
-    margin-bottom: 20px;
-  }
+  

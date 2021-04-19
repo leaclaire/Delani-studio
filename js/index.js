@@ -23,11 +23,12 @@ $(document).ready(function () {
       $(".toggle3").toggle();
       $("#manage").toggle();
     });
+
     $(".project1").mouseover(function(){
         $("#project1").show();
-      });
+      })
       .mouseout(function(){
         $("#project1").hide();
-      });
+      })
   });
    

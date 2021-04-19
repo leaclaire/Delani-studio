@@ -72,5 +72,12 @@ $(document).ready(function () {
       .mouseout(function(){
         $("#project8").hide();
       })
+
+      $("#form003").submit(function(form){
+          let userName=$("#name").val();
+          let userEmail=$("#email").val();
+          let message=$("#message").val();
+          alert("Hello "+  userName + ",welcome to Delani studio.We have recieved your message.");
+      })
   });
    

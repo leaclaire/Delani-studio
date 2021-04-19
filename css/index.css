@@ -1,10 +1,94 @@
-#first{
-    background-image: url(../assets/backgrounds/h_img.jpg);
+body{
+    text-align: center;
+  }
+  #first {
+    background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 800px;
     color: white;
+  }
+  @media (min-width: 1200px) {
+    .container{
+        max-width: 1450px;
+    }
+  }
+  .container{
     text-align: center;
-    text-transform: uppercase;
-    padding-top: 230px;
-    font-family: calligraffitti;
-}
+  }
+  #logo {
+    margin-top: 260px;
+    margin-bottom: 30px;
+  }
+  #mouse {
+    margin-top: 190px;
+  }
+  #about{
+    padding-top:40px;
+  }
+  .toggle1,.toggle2,.toggle3 {
+    display: none;;
+  }
+  #services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    color:white;
+    height: 400px;
+    text-align: center;
+    padding-top: 140px;
+  }
+  .whatWeDo {
+    margin-top: 40px;
+  }
+  h4{
+    text-align: center;
+    font-size: 25px;
+    color: darkslategray;
+  }
+  h5{
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .contact{
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+  }
+  .contacts h1 {
+    position: relative;
+    top: 30px;
+    color: white;
+  }
+  #name,#email{
+    background-color: transparent;
+    width: 80%;
+    margin: 0;
+    border: 1px solid white;
+    padding: 0;
+    color: white;
+  }
+  #message {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 80%;
+  }
+  #name::placeholder{
+    color: white;
+  }
+  #email::placeholder {
+    color: white;
+  }
+  #message::placeholder {
+    color: white;
+  }
+  .socialIcons {
+    padding-top: 40px;
+  }
+  .delani {
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  .row {
+    margin-bottom: 20px;
+  }

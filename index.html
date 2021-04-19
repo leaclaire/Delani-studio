@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,36 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani studios.</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="index.css" type="text/css">
-     
-
+    <link rel="stylesheet" href="css/index.css" type="text/css">
 </head>
 <body>
-    <div class="container-fluid" id="first">
-        <img src="./assets/backgrounds/h_img.jpg" id="logo">
+    <div class="container" id="first">
+        <img id="logo" src="assets/logo/logo.png" id="mouseClick">
         <h1>WELCOME</h1>
         <h1>TO DELANI STUDIO</h1>
         <p><span>Amazing people are making amazing designs in a fun envirnment</span></p>
-        <img src="./assets/mouse_click.png" id="mouseClick">
+        <img id="mouse" src="assets/mouse_click.png" alt="">
     </div>
     <div class="container">
- 
         <div class="land" id="aboutUs">
-            <div class=" text-center">
+            <div id="about" class=" text-center">
                 <h1>ABOUT US</h1>
                 <p>When you work with us, you are part of a team of committed collaborators. All
                     aspects
                     of our software development process are intergrated,interactive<br> and agile.</p>
                 <p>Our approach unifies design,development and product management to create
                     exceptional
-                    products.<br>We start each project by understanding your business goals, the user's need and the
-                    product requirements<br>Then we help translate them into effective and elegant solutions.
-                </p>
+                    products.<p>We start each project by understanding your business goals, the user's need and the
+                    product requirements</p>
+                    <p>Then we help translate them into effective and elegant solutions.</p>
             </div>
         </div>
     </div>
      <!--services section-->
-   <div class="m " id="services">
+   <div class="container" id="services">
     <div class="row">
         <div class="col text-center">
             <h1>SERVICES</h1>
@@ -51,9 +49,9 @@
     <h1 class="text-center what ">WHAT WE DO</h1>
     <div class="row text-center">
         <div class="col-md-4 icons">
-            <img src="./assets/services_icons/design_icon.png" class="show img-fluid">
+            <div id="design"><img src="./assets/services_icons/design_icon.png" class="show img-fluid"></div>
             <h2><strong>DESIGN</strong></h2>
-            <div class="toggle">
+            <div class="toggle1">
                 <p> Our design practice offers a full range of services including brand strategy,
                   interaction and visual design and user experience testing.</p>
                 <p>Throughout yuor project,our designers create and implement visual design and workflows,solicit
@@ -61,18 +59,18 @@
             </div>
         </div>
         <div class="col-md-4 icons">
-            <img src="./assets/services_icons/dev_icon.png" class="show img-fluid">
+            <div id="dev"><img src="./assets/services_icons/dev_icon.png" class="show img-fluid"></div>
             <h2><strong>DEVELOPMENT</strong></h2>
-            <div class="toggle">
+            <div class="toggle2">
                 <P>All engineers are fluent in the latest enterprise, mobile and web development technologies. They
                     collaborate with your team to write, and improve code on a daily basis, using proven practices
                     such as test-driven development and pair programming. </P>
             </div>
         </div>
         <div class="col-md-4 icons">
-            <img src="./assets/services_icons/product_icon.png" class="show img-fluid">
+            <div id="manage"><img src="./assets/services_icons/product_icon.png" class="show img-fluid"></div>
             <h2><strong>PRODUCT MANAGEMENT</strong></h2>
-            <div class="toggle">
+            <div class="toggle3">
                 <p>Planning and development is iterative. Because we are constantly coding and testing, the products
                     we build are always ready to go live. This iterative process allows for changes as business
                     requirements evolve.</p>
@@ -113,7 +111,6 @@
     </div>
     <div class="row">
         <div class="card-deck">
-
             <div class="card">
                 <img src="./assets/portfolio/work5.jpg" class="card-img-top" alt="">
                 <div class="card-1">
@@ -143,9 +140,9 @@
 </div>
 <!-- end of the portfolio section -->
 <!-- contact section -->
-
-<div class="contact">
-        <h4>CONTACT US</h4>
+<div class="container">
+    <div class="contact">
+        <h3>CONTACT US</h3>
         <div class="form">
           <form id="form34A" action="https://gmail.us18.list-manage.com/subscribe/post" method="POST">
             <input type="hidden" name="u" value="88a47736b2f9002129bfbdb5c">
@@ -158,29 +155,28 @@
            </form>
         </div>
     </div>
+</div>
 <!-- social connections -->
-<section class="links text-center" id="links">
-    <div class="  text-center   social">
-        <img src="./assets/social_icons/twitter.png" alt="" class="all" srcset="">
-        <img src="./assets/social_icons/dribble.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/facebook.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/g_plus.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/skype.png" alt="" class="all" srcset="">
-        <img src="./assets/social_icons/stumble_upon.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/behance.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/pinterest.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/flickr.png" class="all" alt="" srcset="">
-        <img src="./assets/social_icons/you_tube.png" alt="" class="all" srcset="">
-    </div>
-</section>
+<div class="container">
+    <section class="links text-center" id="links">
+        <div class="  text-center   social">
+            <img src="./assets/social_icons/twitter.png" alt="" class="all" srcset="">
+            <img src="./assets/social_icons/dribble.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/facebook.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/g_plus.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/skype.png" alt="" class="all" srcset="">
+            <img src="./assets/social_icons/stumble_upon.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/behance.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/pinterest.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/flickr.png" class="all" alt="" srcset="">
+            <img src="./assets/social_icons/you_tube.png" alt="" class="all" srcset="">
+        </div>
+    </section>
+</div>
 <!-- footer section here -->
 <div class=" footer text-center">
     <p>DELANI STUDIO<br>2019</p>
 </div>
 </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-     <script src="js/index.js"></script>
+<script src="js/script.js"></script>
 </body>
-</html>

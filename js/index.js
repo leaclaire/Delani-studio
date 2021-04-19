@@ -7,9 +7,13 @@ $(document).ready(function () {
       $("#dev").toggle();
       $(".toggle2").toggle();
     });
+    $("#manage").click(function () {
+        $(".toggle3").toggle();
+        $("#manage").toggle();
+      });
     $(".toggle1").click(function () {
       $(".toggle1").toggle();
-      $("#manage").toggle();
+      $("#design").toggle();
     });
     $(".toggle2").click(function () {
       $("#dev").toggle();
@@ -17,10 +21,6 @@ $(document).ready(function () {
     });
     $(".toggle3").click(function () {
       $(".toggle3").toggle();
-      $("#manage").toggle();
-    });
-    $(".toggle2").click(function () {
-      $(".toggle2").toggle();
       $("#manage").toggle();
     });
   });

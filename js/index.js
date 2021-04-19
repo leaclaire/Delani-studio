@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
     $(".project1").mouseover(function(){
         $("#project1").show();
-      }),
+      });
       .mouseout(function(){
         $("#project1").hide();
       });
